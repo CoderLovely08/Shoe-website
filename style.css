@@ -14,6 +14,9 @@ body {
     font-weight: bold;
     text-decoration: none;
   }
+  a{
+    text-decoration: none;
+  }
   /* ~~ Top Navigation Bar ~~ */
   
   #navigation-container {
@@ -121,4 +124,63 @@ body {
   top: 40px;
   margin: 12px;
   text-decoration: none;
+}
+
+.section-type{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.section-type .mens-section{
+  display: inline-block;
+  border-radius: 12px;
+  /* float: left; */
+  width: 100%;
+  height: 350px;
+  margin: 20px 6px;
+  background-color: #1B1D22;
+}
+.section-type .womens-section{
+  display: inline-block;
+  border-radius: 12px;
+  /* float: right; */
+  width: 100%;
+  height: 350px;
+  margin: 20px 6px;
+  background-color: #1B1D22;
+}
+.section-type h1{
+  padding: 12px 26px;
+  color: #fff;
+}
+.section-type .mens-section img{
+  display: block;
+  margin: auto;
+  width: 70%; 
+  position: relative;
+  top: -20px;
+}
+.section-type .womens-section span{
+  color: #fff;
+  position: relative;
+  left: 60px;
+  top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+
+}
+.section-type span{
+  color: #fff;
+  position: relative;
+  left: 60px;
+  top: -35px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.section-type .womens-section img{
+  display: block;
+  margin: auto;
+  width: 70%; 
+  position: relative;
+  top: -20px; 
 }
