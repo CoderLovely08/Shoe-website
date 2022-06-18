@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logo {
+    margin: 12px 0 4px 0;
+    padding: 10px;
+    float: left;
+    background-color: #001100;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  /* ~~ Top Navigation Bar ~~ */
+  
+  #navigation-container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+  }
+  
+  .navigation-bar {
+    height: 70px;
+    width: 100%;
+    text-align:right;
+  }
+  
+
+  .navigation-bar ul {
+    padding: 0px;
+    margin: 0px 16px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+  
+  .navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin: 4px 12px;
+
+    display: inline;
+    font-weight: bold;
+  }
+  
+  .navigation-bar li a {
+    color: black;
+    font-size: 18px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+  }
+  
+  #menu {
+    float: right;
+  }
+.branding{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.branding .company-title{
+  float: left;
+  margin: 16px;
+  text-align: left;
+}
+.branding .company-title h1{
+  font-weight: 900;
+  text-align: center;
+}
+.branding .company-title em{
+  font-weight: bold; 
+  font-size: 22px;
+}
+.branding .company-title span{
+  text-align: center;
+  padding: 6px;
+  margin-top: 12px;
+  font-weight: bold;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.branding .shoe-image {
+  float: right;
+}
+.branding .shoe-image img{
+  float: right;
+  text-align: center;
+}
+
+.shop-button{
+  background-color: #001100;
+  color: #ffffff;
+  padding: 12px 80px;
+  position: relative;
+  border-radius: 6px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  top: 40px;
+  margin: 12px;
+  text-decoration: none;
+}
