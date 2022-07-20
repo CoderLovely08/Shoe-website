@@ -386,3 +386,34 @@ svg:hover path {
 svg:hover circle {
   fill: #fce57e;
 } */
+
+@keyframes moveupdown {
+  0%,100% {
+    bottom: 0;
+  }
+  50%{
+    bottom: 60px;
+  }
+}
+@keyframes moveupdown1 {
+  0%,100% {
+    bottom: 0;
+  }
+  50%{
+    bottom: 60px;
+  }
+}
+
+.img1 svg{
+  animation: moveupdown 1.2s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.img2 svg{
+  animation: moveupdown 1.2s linear infinite;
+  animation-delay: 0.6s;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
