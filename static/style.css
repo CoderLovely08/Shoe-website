@@ -100,7 +100,7 @@ body {
   width: 80%;
   height: 80%;
 }
-.branding .shoe-image .img1{
+.branding .shoe-image svg{
   float: left;
   text-align: center;
 }
@@ -110,7 +110,7 @@ body {
   top: 0;
   text-align: center;
 }
-.shoe-image img{
+.shoe-image img,svg{
   max-width: auto;
   max-height:450px ;
 }
@@ -369,3 +369,20 @@ div.scrollmenu {
   font-size:13px;
   margin-bottom:0;
 }
+
+
+svg:hover {
+  fill: #60bef5;
+}
+
+svg:hover path {
+  fill: #60bef5;
+}
+
+/* svg:hover plygon {
+  fill: #fce57e;
+}
+
+svg:hover circle {
+  fill: #fce57e;
+} */
